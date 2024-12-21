@@ -38,7 +38,7 @@ const Resume = () => {
         </div>
       </header>
       <div class="about">
-        <img className="profile-pic" src="./img/myPhoto.jpg" alt="Kseniya" />
+        <img className="profile-pic" src="public/img/myPhoto.jpg" alt="Kseniya" />
         <p class="about-text">
         Hello! My name is Kseniya, and I am a second-year student at BSU. I have experience in programming with C++ and JavaScript, and I am actively developing my skills in web development using React.
 
