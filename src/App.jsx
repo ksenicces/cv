@@ -14,13 +14,13 @@ const Resume = () => {
             <div class="vertical-line"></div>
             <div class="contact-info">
               <div class="contact-item">
-                <img class="icon" src="./img/envelope-icon.png" alt="Email" />
+                <img class="icon" src="/img/envelope-icon.png" alt="Email" />
                 <p class="contact-text">ksusha06.by@gmail.com</p>
               </div>
               <div class="contact-item">
                 <img
                   class="icon"
-                  src="cv/img/telegram-icon.png"
+                  src="/img/telegram-icon.png"
                   alt="Telegram"
                 />
                 <p class="contact-text"> ksenicces</p>
