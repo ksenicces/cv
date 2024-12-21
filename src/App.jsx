@@ -20,7 +20,7 @@ const Resume = () => {
               <div class="contact-item">
                 <img
                   class="icon"
-                  src="/img/telegram-icon.png"
+                  src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficons8.ru%2Ficons%2Fset%2Ftelegram&psig=AOvVaw1SOUJqBQPLLUrOxgg2ooGm&ust=1734897566249000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKil5pzTuYoDFQAAAAAdAAAAABAE"
                   alt="Telegram"
                 />
                 <p class="contact-text"> ksenicces</p>
