@@ -40,7 +40,7 @@ const Resume = () => {
       <div class="about">
         <img className="profile-pic" src="./img/myPhoto.jpg" alt="Kseniya" />
         <p class="about-text">
-        Hello! My name is Kseniya, and I am a second-year student at BSU. I have experience in programming with C++ and JavaScript, and I am actively developing my skills in web development using React.
+        Hello! My name is Kseniya, and I am a student at BSU. I have experience in programming with C++ and JavaScript, and I am actively developing my skills in web development using React.
 
 Additionally, I am proficient with tools like Tilda, Figma, and Photoshop, which allow me to create both functional and visually appealing projects. I also speak English at a B2 level, which helps me learn new technologies and collaborate with international teams.
 
