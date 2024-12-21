@@ -84,7 +84,7 @@ I am always open to new opportunities and eager to learn to become an even more 
             <p>C++</p>
           </div>
           <div class="skill-item">
-            <img class="skill-icon" src="./img/react-icon.png" alt="React" />
+            <img class="skill-icon" src='img/cpp-icon.png' alt="React" />
             <p>React</p>
           </div>
           <div class="skill-item">
