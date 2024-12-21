@@ -14,13 +14,13 @@ const Resume = () => {
             <div class="vertical-line"></div>
             <div class="contact-info">
               <div class="contact-item">
-                <img class="icon" src="/img/envelope-icon.png" alt="Email" />
+                <img class="icon" src="./img/envelope-icon.png" alt="Email" />
                 <p class="contact-text">ksusha06.by@gmail.com</p>
               </div>
               <div class="contact-item">
                 <img
                   class="icon"
-                  src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficons8.ru%2Ficons%2Fset%2Ftelegram&psig=AOvVaw1SOUJqBQPLLUrOxgg2ooGm&ust=1734897566249000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKil5pzTuYoDFQAAAAAdAAAAABAE"
+                  src="./img/telegram-icon.png"
                   alt="Telegram"
                 />
                 <p class="contact-text"> ksenicces</p>
@@ -38,7 +38,7 @@ const Resume = () => {
         </div>
       </header>
       <div class="about">
-        <img className="profile-pic" src="public/img/myPhoto.jpg" alt="Kseniya" />
+        <img className="profile-pic" src="./img/myPhoto.jpg" alt="Kseniya" />
         <p class="about-text">
         Hello! My name is Kseniya, and I am a second-year student at BSU. I have experience in programming with C++ and JavaScript, and I am actively developing my skills in web development using React.
 
