@@ -1,0 +1,261 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.resume-container {
+  width: 60%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+}
+
+.header {
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #eee;
+}
+#header-text-main {
+  font-size: 2.5em;
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  color: #2c3e50;
+  margin: 0.5rem 0;
+}
+#header-text {
+  margin-top: 0.5em;
+  font-size: 1.6em;
+  font-family: "Nunito Sans", serif;
+  font-weight: 300;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name-title {
+  text-align: left;
+}
+.contact {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 1em;
+}
+
+.vertical-line {
+  width: 2px;
+  background-color: #eee;
+  height: 8em;
+  margin-right: 15px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+}
+
+.contact-text {
+  font-family: "Nunito Sans", serif;
+  font-weight: 300;
+}
+
+.profile-pic {
+  width: 15%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.1rem;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+.about {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 1.5rem;
+}
+.about-text {
+  flex: 1;
+  font-family: "Nunito Sans", serif;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 0;
+}
+.education-text ,
+.skills-text,
+.works-text,
+.expirience-text{
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  color: #34495e;
+  margin: 2rem 0;
+}
+.year {
+  font-family: "Nunito Sans", serif;
+  font-weight: 300;
+}
+.university,
+.skills-list,
+.expirience {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 4px solid #2c3e50;
+  background: #f4f4f4;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  justify-content: space-around;
+}
+.skill-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 0.5rem;
+}
+
+.skills-list p {
+  font-family: "Nunito Sans", serif;
+  font-weight: 300;
+}
+
+.works-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem; 
+}
+
+.work-item {
+  flex: 0 48%;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.work-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.work-image:hover {
+  transform: scale(1.5); 
+}
+
+.work-title {
+  margin: 0.5rem 0;
+  font-size: 1.5em;
+}
+
+.work-description {
+  font-size: 1em;
+}
+.contact p {
+  margin: 0.5rem 0;
+}
+.expirience-text-2{
+  font-family: "Nunito Sans", serif;
+  font-weight: 300;
+}
+.href-work{
+  text-decoration: none;
+  font-family: "Nunito Sans", serif;
+  font-weight: 300;
+  color: black;
+  position: absolute; 
+  bottom: 0;
+}
+.work-item{
+  position: relative;
+}
+
+@media (max-width: 1000px){
+  .resume-container {
+    width: 80%;
+  }
+  .profile-pic {
+    width: 20%;
+  }
+}
+@media (max-width: 768px){
+  .resume-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .profile-pic {
+    width: 25%;
+  }
+  .about{
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .profile-pic {
+    width: 30%;
+  }
+  .works-list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem; 
+  }
+  .header-content{
+    flex-direction: column;
+    align-items: flex-start
+  }
+  .contact {
+    margin-left: 0; 
+   
+}
+.vertical-line {
+  display: none;
+}
+.contact-info {
+  padding-left: 0;
+}
+}
